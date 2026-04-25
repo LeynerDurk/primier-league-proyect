@@ -1,0 +1,14 @@
+1. Verificar que Python está instalado:
+   python --versión
+
+2. Actualizar pip:
+   python -m pip install --upgrade pip
+
+3. Instalar todas las dependencias
+   python -m pip install streamlit plotly pandas numpy
+
+4. Verificar que se instalaron correctamente
+   python -m pip list
+   
+5. Ejecutar la app
+   python -m streamlit run app.py

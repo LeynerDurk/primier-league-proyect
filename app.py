@@ -472,8 +472,7 @@ with tab2:
                 "<extra></extra>"
             ),
             colorbar=dict(
-                title="Goles<br>prom.",
-                titlefont=dict(color="#8b949e", size=11),
+                title=dict(text="Goles<br>prom.", font=dict(color="#8b949e", size=11)),
                 tickfont=dict(color="#8b949e"),
                 thickness=12,
             ),
